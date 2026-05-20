@@ -67,10 +67,10 @@ export default function Contact() {
                   Email
                 </p>
                 <a
-                  href="mailto:hello@quickdev.io"
+                  href="mailto:axedtax@gmail.com"
                   className="text-white hover:text-[#22c55e] transition-colors font-medium"
                 >
-                  hello@quickdev.io
+                  axedtax@gmail.com
                 </a>
               </div>
               <div>
@@ -210,10 +210,10 @@ export default function Contact() {
                 <p className="text-[#3f3f46] text-xs text-center">
                   Or email us directly at{" "}
                   <a
-                    href="mailto:hello@quickdev.io"
+                    href="mailto:axedtax@gmail.com"
                     className="text-[#52525b] hover:text-[#71717a]"
                   >
-                    hello@quickdev.io
+                    axedtax@gmail.com
                   </a>
                 </p>
               </form>
