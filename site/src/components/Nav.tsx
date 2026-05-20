@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 const links = [
   { label: "Home", href: "#home" },
@@ -30,8 +31,8 @@ export default function Nav() {
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <a href="#home" className="font-bold text-lg tracking-tight">
-          Quick<span className="text-[#22c55e]">Dev</span>
+        <a href="#home" className="flex items-center">
+          <Image src="/logo.svg" alt="QuickDev" width={120} height={47} priority />
         </a>
 
         {/* Desktop nav */}

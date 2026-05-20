@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   title: "QuickDev — Fast. Reliable. Built right.",
   description:
     "QuickDev is a senior-only freelance development studio that ships production-grade web applications, platforms, and digital products — on time, every time.",
+  icons: {
+    icon: "/logo.svg",
+  },
 };
 
 export default function RootLayout({
